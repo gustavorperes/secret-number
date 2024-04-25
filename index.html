@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Secret Number</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/numeros.png" alt="Imagem de Fundo" class="numbers">
+        <div class="titles">
+            <h1>Welcome to the Secret Number game!</h1>
+            <h4>Enter your number and good luck.. You have 5 attempts</h4>
+        </div>
+        <div class="content">
+            <div class="content_infos">
+                <input type="text" name="number">
+                <div class="buttons">
+                    <button onclick="verifica()" class="btn_try">Try</button>
+                    <button onclick="reiniciarJogo()" class="btn_restart">Restart Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
