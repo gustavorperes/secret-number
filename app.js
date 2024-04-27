@@ -55,7 +55,7 @@ function verifica(){
         }
 
         if (input.value == x[i]){
-            alert("acertou");
+            alert("Congratulations!");
             var achou = true;
             break;
         }
