@@ -30,7 +30,7 @@ function sorteiaNumero(quantidade){
 }
 
 var input = document.querySelector("input");
-var x = sorteiaNumero(3);
+var x = sorteiaNumero(1);
 
 function verifica(){          
     var achou = false;
