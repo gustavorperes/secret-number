@@ -1,4 +1,4 @@
-<h1>Game Secret Number</h1>
+<h1>Game of Secret Number</h1>
 
 <h2> 💬 About</h2>
 
